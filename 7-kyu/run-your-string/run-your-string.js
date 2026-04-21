@@ -1,0 +1,5 @@
+function runYourString (arg, obj) {
+  const fn = new Function(obj.param, obj.func);
+  
+  return fn(arg);
+}
